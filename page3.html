@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Workout Generator</title>
+
+  <link rel="stylesheet" href="./page3.css">
+
+  <script src="page3.js"></script>
+
+</head>
+
+<body>
+
+<header>
+
+    <div class="logo">Green Bites</div>
+
+    <nav>
+
+        <a href="./page1.html">Home</a>
+
+        <a href="./food.html">Healthy Recipe</a>
+
+        <a href="./page2.html">Calculator</a>
+
+        <a href="./page3.html">Workouts</a>
+
+        <a href="./page4.html">Relax</a>
+
+        
+
+    </nav>
+
+</header>
+
+    <div class="hero-section">
+
+      <div class="hero-image">
+
+        <img src="./page 3/a man doing bicep exercises.jpg" alt="Fitness Trainer" />
+
+      </div>
+
+      <div class="hero-content">
+
+        <div class="topic">Workout Generator</div>
+
+        <div class="desc">
+
+          Workouts are structured physical activities designed to improve health, strength, and endurance. They can include exercises like weightlifting, running, yoga, or high-intensity interval training (HIIT). Regular workouts boost cardiovascular health, build muscle, enhance flexibility, and help maintain a healthy weight. They also reduce stress, improve mood, and increase energy levels by releasing endorphins. Workouts can be tailored to individual goals, whether building strength, improving stamina, or staying active for overall wellness. Consistency is key—short, regular sessions are often more effective than occasional intense efforts. A balanced workout routine combines strength, cardio, and recovery for long-term fitness success
+
+        </div>
+
+      </div>
+
+    </div>
+
+  <div class="container">
+
+    <h1>Workout Generator</h1>
+
+
+
+    <div class="form">
+
+      <label for="bodyPart">Select Body Part:</label>
+
+      <select id="bodyPart">
+
+        <option value="back">Back</option>
+
+        <option value="shoulders">Shoulders</option>
+
+        <option value="triceps">Triceps</option>
+
+        <option value="legs">Legs</option>
+
+        <option value="abs">Abs</option>
+
+      </select>
+
+
+
+      <label for="equipment">Select Equipment:</label>
+
+      <select id="equipment">
+
+        <option value="none">None</option>
+
+        <option value="dumbbells">Dumbbells</option>
+
+      </select>
+
+
+
+      <button onclick="generateWorkout()">Generate Workout</button>
+
+    </div>
+
+
+
+    <div id="plan" class="plan" style="display:none;">
+
+      <h2>Your Workout Plan:</h2>
+
+      <ul id="list"></ul>
+
+
+
+      <div class="timer-section">
+
+        <h3 id="exerciseName">Press Start</h3>
+
+        <div id="timer">30</div>
+
+        <button onclick="startTimer()">Start Workout</button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- footer -->
+
+  <footer>
+
+  <div class="footer-container">
+
+    <div class="footer-section">
+
+      <h3>Contact Us</h3>
+
+      <ul>
+
+        <li><a href="mailto:liyanagejefri@gmail.com">liyanagejefri@gmail.com</a></li>
+
+        <li><a href="mailto:jonsanuncle@gmail.com">jonsanuncle@gmail.com</a></li>
+
+        <li><a href="mailto:someone@yahoo.com">devidperera@yahoo.com</a></li>
+
+      </ul>
+
+    </div>
+
+
+
+    <div class="footer-section">
+
+      <h3>Phone</h3>
+
+      <ul>
+
+        <li><a href="tel:0312567819">031 256 7819</a></li>
+
+        <li><a href="tel:0772361827">077 236 1827</a></li>
+
+      </ul>
+
+    </div>
+
+
+
+    <div class="footer-bottom">
+
+      <p>&copy; 2025 Green Bites. All Rights Reserved.</p>
+
+    </div>
+
+  </div>
+
+</footer>
+
+
+
+  
+
+</body>
+
+</html>

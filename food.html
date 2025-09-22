@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./food.css">
+</head>
+<body>
+<header>
+    <div class="logo">Green Bites</div>
+    <nav>
+        <a href="./page1.html">Home</a>
+        <a href="./food.html">Healthy Recipe</a>
+        <a href="./page2.html">Calculator</a>
+        <a href="./page3.html">Workouts</a>
+        <a href="./page4.html">Relax</a>
+        
+    </nav>
+</header>
+    <div class="header">
+        <h1>Healthy Recipes</h1>
+        <input type="text" id="searchInput" placeholder="Search recipes by name...">
+        <select id="categoryFilter">
+            <option value="all">All Categories</option>
+        </select>
+    </div>
+
+    <main id="recipesContainer">
+        <!-- Recipe cards will be inserted here dynamically -->
+    </main>
+
+    <!-- Modal for full recipe -->
+    <div id="recipeModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="modalTitle"></h2>
+            <img id="modalImage" src="" alt="">
+            <h3>Ingredients</h3>
+            <ul id="modalIngredients"></ul>
+            <h3>Steps</h3>
+            <ol id="modalSteps"></ol>
+            <h3>Nutrition Info</h3>
+            <table id="modalNutrition">
+                <thead>
+                    <tr>
+                        <th>Nutrient</th>
+                        <th>Amount</th>
+                    </tr>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+    <!-- footer -->
+    <footer>
+  <div class="footer-container">
+    <div class="footer-section">
+      <h3>Contact Us</h3>
+      <ul>
+        <li><a href="mailto:liyanagejefri@gmail.com">liyanagejefri@gmail.com</a></li>
+        <li><a href="mailto:jonsanuncle@gmail.com">jonsanuncle@gmail.com</a></li>
+        <li><a href="mailto:someone@yahoo.com">devidperera@yahoo.com</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-section">
+      <h3>Phone</h3>
+      <ul>
+        <li><a href="tel:0312567819">031 256 7819</a></li>
+        <li><a href="tel:0772361827">077 236 1827</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Green Bites. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+    <script src="./food.js"></script>
+</body>
+</html>

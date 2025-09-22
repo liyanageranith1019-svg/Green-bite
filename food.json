@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Quinoa Salad",
+        "category": "Salad",
+        "description": "Healthy quinoa with fresh veggies.",
+        "image": "jason/Quinoa Salad img.jpg",
+        "ingredients": ["1 cup quinoa", "1 tomato", "1 cucumber", "2 tbsp olive oil", "Salt & Pepper"],
+        "steps": ["Cook quinoa", "Chop veggies", "Mix all ingredients", "Serve chilled"],
+        "nutrition": {"Calories": "200", "Protein": "8g", "Carbs": "30g", "Fat": "7g"}
+    },
+    {
+        "id": 2,
+        "name": "Grilled Chicken",
+        "category": "Main Course",
+        "description": "Juicy grilled chicken with herbs.",
+        "image": "jason/Grilled Chicken.jpg",
+        "ingredients": ["2 chicken breasts", "1 tbsp olive oil", "Herbs", "Salt & Pepper"],
+        "steps": ["Marinate chicken", "Preheat grill", "Grill chicken 6-8 min each side", "Serve hot"],
+        "nutrition": {"Calories": "250", "Protein": "30g", "Carbs": "0g", "Fat": "12g"}
+    },
+    {
+        "id": 3,
+        "name": "Fruit Smoothie",
+        "category": "Beverage",
+        "description": "Refreshing smoothie with mixed fruits.",
+        "image": "jason/Fruit Smoothie image.jpg",
+        "ingredients": ["1 banana", "1 cup berries", "1 cup milk", "1 tbsp honey"],
+        "steps": ["Add all ingredients to blender", "Blend until smooth", "Pour into glass", "Serve immediately"],
+        "nutrition": {"Calories": "180", "Protein": "3g", "Carbs": "40g", "Fat": "1g"}
+    },
+    {
+        "id": 4,
+        "name": "Avocado Toast",
+        "category": "Breakfast",
+        "description": "Simple avocado toast with seeds.",
+        "image": "jason/Avocado Toast.jpg",
+        "ingredients": ["2 slices whole grain bread", "1 avocado", "1 tsp lemon juice", "Salt & pepper", "Seeds"],
+        "steps": ["Toast bread", "Mash avocado with lemon juice", "Spread on toast", "Sprinkle seeds", "Serve"],
+        "nutrition": {"Calories": "220", "Protein": "6g", "Carbs": "28g", "Fat": "12g"}
+    },
+    {
+        "id": 5,
+        "name": "Vegetable Stir Fry",
+        "category": "Main Course",
+        "description": "Quick stir fry with colorful vegetables.",
+        "image": "jason/Vegetable Stir Fry.jpg",
+        "ingredients": ["1 cup broccoli", "1 carrot", "1 bell pepper", "2 tbsp soy sauce", "1 tsp olive oil"],
+        "steps": ["Heat oil in pan", "Add vegetables", "Stir fry for 5-7 min", "Add soy sauce", "Serve hot"],
+        "nutrition": {"Calories": "150", "Protein": "5g", "Carbs": "20g", "Fat": "5g"}
+    },
+    {
+        "id": 6,
+        "name": "Chia Pudding",
+        "category": "Dessert",
+        "description": "Healthy chia pudding with almond milk.",
+        "image": "jason/Chia Pudding.jpg",
+        "ingredients": ["3 tbsp chia seeds", "1 cup almond milk", "1 tsp honey", "Berries for topping"],
+        "steps": ["Mix chia seeds with almond milk", "Refrigerate for 4 hours", "Top with berries", "Serve chilled"],
+        "nutrition": {"Calories": "180", "Protein": "5g", "Carbs": "15g", "Fat": "9g"}
+    },
+    {
+        "id": 7,
+        "name": "Lentil Soup",
+        "category": "Soup",
+        "description": "Warm lentil soup full of protein.",
+        "image": "jason/Lentil Soup.jpg",
+        "ingredients": ["1 cup lentils", "1 carrot", "1 onion", "2 cups vegetable broth", "Spices"],
+        "steps": ["Rinse lentils", "Chop vegetables", "Cook all in broth 25 min", "Season with spices", "Serve hot"],
+        "nutrition": {"Calories": "190", "Protein": "12g", "Carbs": "30g", "Fat": "3g"}
+    },
+    {
+        "id": 8,
+        "name": "Greek Yogurt Parfait",
+        "category": "Breakfast",
+        "description": "Layers of yogurt, granola, and fruits.",
+        "image": "jason/Greek Yogurt Parfait.jpg",
+        "ingredients": ["1 cup Greek yogurt", "1/2 cup granola", "1/2 cup mixed berries", "1 tsp honey"],
+        "steps": ["Layer yogurt, granola, berries in a glass", "Drizzle honey on top", "Serve immediately"],
+        "nutrition": {"Calories": "250", "Protein": "12g", "Carbs": "35g", "Fat": "8g"}
+    }
+]
